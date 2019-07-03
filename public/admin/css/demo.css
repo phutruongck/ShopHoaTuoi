@@ -1,0 +1,216 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.update-pro {
+	margin: 15px 25px;}
+
+.update-pro button {
+		padding: 13px 25px;
+	background: #4d7cfe;
+	color: #fff;
+	border-radius: 3px;
+	justify-content: center;
+	width: 100%;
+	border: 0;
+	cursor: pointer;
+}
+
+.update-pro button:hover {
+	background: #4d7cfe !important;
+	color: #fff;
+	transform: translateY(-2px);
+	transition: all .2s linear;
+}
+
+.update-pro:hover button:before{
+	display: none;
+}
+
+.update-pro button p, .update-pro button i{
+	color: #fff !important;
+	margin-bottom: 0px;
+}
+
+.update-pro button i{
+	margin-right: 5px !important;
+	font-size: 23px;
+	color: #C3C5CA;
+	margin-right: 15px;
+	width: 25px;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+}
+
+.demo .btn, .demo .progress{
+	margin-bottom: 15px !important;
+}
+
+.demo .form-check-label, .demo .form-radio-label{
+	margin-right: 15px;
+}
+
+.demo #slider{
+	margin-bottom: 15px;
+}
+
+.table-typo tbody > tr > td{
+	border-color: #fafafa;
+}
+
+.table-typo tbody > tr > td:first-child{
+	min-width: 200px;
+	vertical-align: bottom;
+}
+
+.table-typo tbody > tr > td:first-child p{
+	font-size: 14px;
+	color: #333;
+}
+
+.demo-icon {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 20px;
+	padding: 10px;
+	transition: all .2s;
+}
+
+.demo-icon:hover{
+	background-color: #f4f5f8;
+	border-radius: 3px;
+}
+
+.demo-icon .icon-preview{
+	font-size: 1.8rem;
+	margin-right: 10px;
+	line-height: 1;
+	color: #333439;
+}
+
+.demo-icon .icon-class{
+	font-weight: 300;
+	font-size: 13px;
+	color: #777;
+}
+
+.from-show-notify .form-control{
+	margin-bottom: 15px;
+}
+
+.from-show-notify label{
+	padding-top: 0.65rem;
+}
+
+/* Admin */
+
+td>a:hover {
+    text-decoration: none;
+}
+
+i {
+    font-size: 16px;
+}
+
+.admin-delete-button {
+    background-color: transparent;
+    border: 0;
+    color: #ff7675;
+}
+
+.alert-padding {
+	display: block;
+	padding-top: 5px;
+}
+
+.alert {
+	padding-left: 10px;
+}
+
+.file-upload {
+	background-color: #ffffff;
+	width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.image-upload-wrap {
+	margin-top: 20px;
+	border: 4px dashed #1FB264;
+	position: relative;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+	background-color: #1FB264;
+	border: 4px dashed #ffffff;
+}
+
+.file-upload-input {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.image-title-wrap {
+	padding: 0 15px 15px 15px;
+	color: #222;
+}
+
+.drag-text {
+	text-align: center;
+}
+  
+.drag-text h3 {
+	font-family: inherit;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #15824B;
+	padding: 30px 0;
+}
+
+.file-upload-content {
+	display: none;
+	text-align: center;
+}
+
+.file-upload-image {
+	max-height: 200px;
+	max-width: 200px;
+	margin: auto;
+	padding: 20px;
+}
+
+.remove-image {
+	width: 200px;
+	margin: 0;
+	color: #fff;
+	background: #cd4535;
+	border: none;
+	padding: 10px;
+	border-radius: 4px;
+	border-bottom: 4px solid #b02818;
+	transition: all .2s ease;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.remove-image:hover {
+	background: #c13b2a;
+	color: #ffffff;
+	transition: all .2s ease;
+	cursor: pointer;
+}
+
+.remove-image:active {
+	border: 0;
+	transition: all .2s ease;
+}

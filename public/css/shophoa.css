@@ -1,0 +1,90 @@
+.alert-padding {
+    padding-top: 5px;
+}
+
+i.fa-shopping-cart::before {
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+.quantity-block {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.input-group .bootstrap-touchspin {
+    float: right;
+}
+
+.bootstrap-touchspin .input-group-btn {
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.bootstrap-touchspin .input-group-btn>.btn {
+    display: block;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    line-height: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    height: 28px;
+    position: relative;
+}
+
+.quantity-block .form-control {
+    display: inline-block;
+    height: 28px;
+}
+
+.quantity {
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+    border-radius: 0;
+    width: 35px;
+}
+
+.bootstrap-touchspin .input-group-btn .bootstrap-touchspin-down {
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    padding: 0 10px;
+}
+
+.bootstrap-touchspin .bootstrap-touchspin-down {
+    border-radius: 3px 0 0 3px !important;
+    border-right: 0 !important;
+}
+
+.bootstrap-touchspin .bootstrap-touchspin-up {
+    border-radius: 0 3px 3px 0;
+    border-left: 0;
+}
+
+.bootstrap-touchspin .bootstrap-touchspin-up {
+    border-color: #c8c8c8;
+    color: #999;
+    line-height: 20px;
+    padding: 3px 9px;
+    margin: 0;
+    width: 28px;
+}
+
+.bootstrap-touchspin .input-group-btn .bootstrap-touchspin-up {
+    border-radius: 0 4px 4px 0;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    padding: 0 10px;
+}
+
+.bootstrap-touchspin .bootstrap-touchspin-down, .bootstrap-touchspin .bootstrap-touchspin-up {
+    border-color: #c8c8c8;
+    color: #999;
+    line-height: 20px;
+    padding: 3px 9px;
+    margin: 0;
+    width: 28px;
+}
